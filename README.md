@@ -1,9 +1,12 @@
 # **Working Platforms Automation**
 Version 1.0 , Benjamin Sayers (Costain Automated Design)
 
+<<<<<<< HEAD
 Link to the Working Platform Tool on our SharePoint site <br/>
 https://costaingroup.sharepoint.com/sites/DES/SitePages/Working-Platforms.aspx
 
+=======
+>>>>>>> fd61e706e536b305fa8c30a42be9c9a08fa8587a
 ## **Contents**
 1. [Introduction](#introduction)
 2. [Dependencies](#dependencies)
@@ -76,6 +79,7 @@ Through a series of user input parameters the working platform is generated in r
 
 ## **User Guide**
 
+<<<<<<< HEAD
 Follow the link for a video demonstration on our MS Stream site <br/>
 https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
@@ -85,6 +89,10 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
+=======
+*All slider inputs can be used by dragging the handle or double clicking and entering your parameter value.*
+
+>>>>>>> fd61e706e536b305fa8c30a42be9c9a08fa8587a
 ### <u>**1.0 | Launch Application**</u>
 - Launch Rhino 7
 - In Rhino, Open `AWP_Automated_Piling_Platforms.3dm`
@@ -99,12 +107,15 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 ### <u>**2.0 | Import Tab**</u>
 
+<<<<<<< HEAD
 <br/>
 
 ![Import Tab](media/Import.png)
 
 <br/>
 
+=======
+>>>>>>> fd61e706e536b30git p5fa8c30a42be9c9a08fa8587a
 #### **2.1 | Import DWG Topo Surface**
 - Import your terrain / topo surface using the file picker
 - Press `Import` button to import
@@ -132,12 +143,15 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 ### <u>**3.0 | GA Plan Tab**</u>
 
+<<<<<<< HEAD
 <br/>
 
 ![Plan Tab](media/Plan.png)
 
 <br/>
 
+=======
+>>>>>>> fd61e706e536b305fa8c30a42be9c9a08fa8587a
 #### **3.1 | Define edge zone width**
 - Use the slider to define the edge zone width
 
@@ -148,12 +162,15 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 <br/>
 
 ### <u>**4.0 | Section Tab**</u>
+<<<<<<< HEAD
 
 <br/>
 
 ![Section Tab](media/Section.png)
 
 <br/>
+=======
+>>>>>>> fd61e706e536b305fa8c30a42be9c9a08fa8587a
 #### **4.1 | Set Section Curves**
 - Press `Create Section Location Point` and pick the centre point of the section plane in the model window.
 - Press `Select Section Location Points` to select the section point previouslyd defined in the model window
@@ -177,6 +194,7 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 <br/>
 
 ### <u>**5.0 | Model Tab**</u>
+<<<<<<< HEAD
 
 <br/>
 
@@ -184,6 +202,8 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
+=======
+>>>>>>> fd61e706e536b305fa8c30a42be9c9a08fa8587a
 #### **5.1 | Earthworks Volumes**
 - Toggle `Caluclate` to calculate the earthworks volumes for your design
 - The Cut / Fill / Total volume will display below
@@ -193,12 +213,15 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 ### **<u>6.0 | Export Tab</u>**
 
+<<<<<<< HEAD
 <br/>
 
 ![Export Bake](media/Export-Bake.png)
 
 <br/>
 
+=======
+>>>>>>> fd61e706e536b305fa8c30a42be9c9a08fa8587a
 #### **6.1 | Bake Model**
 - Press `Bake Geometry` to finalise your design and bake the geometry to the model window.
 
@@ -212,6 +235,7 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
+<<<<<<< HEAD
 ![Export Plan](media/Export-Plan.png)
 
 <br/>
@@ -220,6 +244,8 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
+=======
+>>>>>>> fd61e706e536b305fa8c30a42be9c9a08fa8587a
 ### <u>**7.0 | Info Tab**</u>
 - For any issues, bugs or requirements please feel free to contact us with the information provided 
 
