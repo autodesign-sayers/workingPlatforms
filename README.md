@@ -104,7 +104,7 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
-![Import Tab](media/Import.png)
+![Import Tab](media/Import.png?raw=true)
 
 <br/>
 
