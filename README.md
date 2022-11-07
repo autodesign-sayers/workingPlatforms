@@ -104,7 +104,7 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
-![Import Tab](media/Import.png?raw=true)
+![Import Tab](Media/Import.png)
 
 <br/>
 
@@ -137,7 +137,7 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
-![Plan Tab](media/Plan.png)
+![Plan Tab](Media/Plan.png)
 
 <br/>
 
@@ -154,7 +154,7 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
-![Section Tab](media/Section.png)
+![Section Tab](Media/Section.png)
 
 <br/>
 
@@ -184,7 +184,7 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
-![Model Tab](media/Model.png)
+![Model Tab](Media/Model.png)
 
 <br/>
 
@@ -199,7 +199,7 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
-![Export Bake](media/Export-Bake.png)
+![Export Bake](Media/Export-Bake.png)
 
 <br/>
 
@@ -216,11 +216,11 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
-![Export Plan](media/Export-Plan.png)
+![Export Plan](Media/Export-Plan.png)
 
 <br/>
 
-![Export Section](media/Export-Section.png)
+![Export Section](Media/Export-Section.png)
 
 <br/>
 
