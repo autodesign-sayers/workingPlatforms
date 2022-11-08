@@ -32,6 +32,9 @@ This repository (repo) contains:
 - A Python file that is used for drawing automation.
 - A CSV file that contains the format to upload SOP coordinates.
 - A dependencies folder with the required plugins needed to run the software.
+- A media folder containing screenshots of the tool in use.
+- A license file
+- A README file
 
 
 ---
@@ -139,10 +142,15 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
+**Please Note** When using the GA Plan Tab Controls you need to have the PlanView viewport open. This is found in the bottom left of the model window.
+
 #### **3.1 | Define edge zone width**
 - Use the slider to define the edge zone width
 
-#### **3.2 | Pick spot levels**
+#### **3.1 | Define edge zone width**
+- Remove any unwanted edge zones by selecting the relevant checkbox that removes an edge zone beteween SOPs
+
+#### **3.3 | Pick spot levels**
 - Press `Create Spot Levels` and pick your spot level points in the model window.
 - Press `Select Spot Level Locations` to select the spot level points previously defined in the model window.
 
@@ -155,6 +163,8 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 ![Section Tab](Media/Section.png)
 
 <br/>
+
+**Please Note** When using the Section Tab Controls you need to have the SectionView viewport open. This is found in the bottom left of the model window.
 
 #### **4.1 | Set Section Curves**
 - Press `Create Section Location Point` and pick the centre point of the section plane in the model window.
