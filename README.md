@@ -85,8 +85,6 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 
 <br/>
 
-*All slider inputs can be used by dragging the handle or double clicking and entering your parameter value.*
-
 ### <u>**1.0 | Launch Application**</u>
 - Launch Rhino 7
 - In Rhino, Open `AWP_Automated_Piling_Platforms.3dm`
@@ -111,7 +109,7 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 #### **2.1 | Import DWG Topo Surface**
 - Import your terrain / topo surface using the file picker
 - Press `Import` button to import
-- Press git update-ref -d MERGE_HEAD`Reset` button to delete an imported surface to reset and reimport a different file
+- Press `Reset` button to delete an imported surface to reset and reimport a different file
 
 #### **2.2 | Import DWG topo surface**
 - Press `Draw Polyline` to manually draw a polyline for your platform edge
