@@ -1,27 +1,46 @@
 # **Working Platforms Automation**
 Version 1.0 , Benjamin Sayers (Costain Automated Design)
 
-Link to the Working Platform Tool on our SharePoint site <br/>
+Link to the Working Platform Tool on our SharePoint site
 https://costaingroup.sharepoint.com/sites/DES/SitePages/Working-Platforms.aspx
 
 ## **Contents**
 1. [Introduction](#introduction)
-2. [Dependencies](#dependencies)
-3. [Inputs](#inputs)
-4. [Process](#process)
-5. [Outputs](#outputs)
-6. [User Guide](#user-guide)
-   1. [Launch Application](#u10--launch-applicationu)
-   2. [Import](#u20--import-tabu)
-   3. [GA Plan](#u30--ga-plan-tabu)
-   4. [Section](#u40--section-tabu)
-   5. [Model](#u50--model-tabu)
-   6. [Export](#u60--export-tabu)
-   7. [Info](#u70--info-tabu)
-7. [Further Development](#further-development)
-8. [Known Issues](#known-issues)
+2. [Software Requiremetns](#software-requirements)
+3. [File Downloads](#file-downloads)
+4. [Dependencies](#dependencies)
+5. [Inputs](#inputs)
+6. [Process](#process)
+7. [Outputs](#outputs)
+8. [User Guide](#user-guide) 
+   1. [Set Up](#00--set-up)
+   2. [Launch Application](#10--launch-application)
+   3. [Import](#20--import-tab)
+   4. [GA Plan](#30--ga-plan-tab)
+   5. [Section](#40--section-tab)
+   6. [Model](#50--model-tab)
+   7. [Export](#60--export-tab)
+   8. [Info](#70--info-tab)
+10. [Further Development](#further-development)
+11. [Known Issues](#known-issues)
 
 --- 
+
+## **Software Requirements**
+
+To run this programme you will need to install Rhino 7. You will need to download and run the .exe file linked below. You will need to contact a person with elevated admin rights to run the .exe installer file.
+
+[Rhino 7 Download](https://costaingroup.sharepoint.com/:u:/s/DES/EeYRVulcZWpNsM5SMdGqIrQBE_DL0P_HEOn5zNV8cZN2TQ?e=RJJsRO)
+
+--- 
+
+### **File Downloads**
+- Download the ZIP file linked below that contains the required files to run the Working Platforms Tool
+- Unzip this file to an accessible location on your machine
+
+[Working Platform File Download](https://costaingroup.sharepoint.com/:u:/s/DES/ESIQOriAa0RLhBLxKO4zfTMB0tHEwkOvRKM9V0rd83WRQQ?e=dtsCdx)
+
+---
 
 ## **Introduction**
 This grasshopper scripts automates the design and drawing production of a singular working platform. It consumes a surface model and polygon and auto-generates a working platform design. The user has a number of user defined parameters available to further refine the design and drawing annotations. A python script is then run to generate a GA Plan and Section drawing which can be exported as PDF. The entire file can then be saved as a .dwg for import into other design software
@@ -36,11 +55,10 @@ This repository (repo) contains:
 - A license file
 - A README file
 
-
 ---
 
 ## **Dependencies**
-For the Grasshopper script, you will need the following dependencies (included in repo folder):
+For the Grasshopper script, you will need the following dependencies (these are all included in dependencies folder):
 
 *packageName, version, Link to webstore (e.g. Food4Rhino)*
 
@@ -79,35 +97,43 @@ Through a series of user input parameters the working platform is generated in r
 
 ## **User Guide**
 
-Follow the link for a video demonstration on our MS Stream site <br/>
+Follow the link for a video demonstration on our MS Stream site
 https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
-
-<br/>
 
 *All slider inputs can be used by dragging the handle or double clicking and entering your parameter value.*
 
-<br/>
-
-### <u>**1.0 | Launch Application**</u>
+### **0.0 | Set Up**
+### **0.1 | Initial Launch of Rhino 7 & Grasshopper**
 - Launch Rhino 7
-- In Rhino, Open `AWP_Automated_Piling_Platforms.3dm`
-- In the Rhino Command Line type
+- Once open you will have 4 viewports open in the `Rhino Window`.
+- In the Rhino Command Line on the top ribbon type
     ```
     Grasshopper
     ```
   and press `Enter`
-- In Grasshopper, Open `AWP_Automated_Piling_Platforms.gh`
+- A new window will open, this is the `Grasshopper Window`
 
-<br/>
+### **0.2 | Install Dependency Files**
+- In the top left of the `Grasshopper Window` press `File` -> `Special Folders` -> `Components Folder`
+- In this `Components Folder` drag and drop the contents of the `Dependies Folder` found in the workingPlatforms folder you previously downloaded.
+- Once you have copied across the files and folders inside `Dependencies Folder` close both Grasshopper Window and Rhino Window.
 
-### <u>**2.0 | Import Tab**</u>
+### **0.3 | Open The Working Platforms Tool**
+- Launch Rhino 7
+- Once open you will have 4 viewports open in the `Rhino Window`.
+- In the top left of the `Rhino Window` press `File` -> `Open` and open `AWP_Automated _Piling _Platforms.3dm` from the workingPlatforms folder
+- In the Rhino Command Line on the top ribbon type
+    ```
+    Grasshopper
+    ```
+  and press `Enter`
+- In the top left of the `Grasshopper Window` press `File` -> `Open` and open AWP_Automated _Piling _Platforms.gh from the workingPlatforms folder
+- This will open up a User Interface Dialogue Box which is how the Working Platform Tool is run.
 
+### **2.0 | Import Tab**
 
-<br/>
 
 ![Import Tab](Media/Import.png)
-
-<br/>
 
 #### **2.1 | Import DWG Topo Surface**
 - Import your terrain / topo surface using the file picker
@@ -132,15 +158,10 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 #### **2.6 | Error message log**
 - Any errors found in the current design will be flagged here
 
-<br/>
+### **3.0 | GA Plan Tab**
 
-### <u>**3.0 | GA Plan Tab**</u>
-
-<br/>
 
 ![Plan Tab](Media/Plan.png)
-
-<br/>
 
 **Please Note** When using the GA Plan Tab Controls you need to have the PlanView viewport open. This is found in the bottom left of the model window.
 
@@ -154,15 +175,12 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 - Press `Create Spot Levels` and pick your spot level points in the model window.
 - Press `Select Spot Level Locations` to select the spot level points previously defined in the model window.
 
-<br/>
 
-### <u>**4.0 | Section Tab**</u>
+### **4.0 | Section Tab**
 
-<br/>
 
 ![Section Tab](Media/Section.png)
 
-<br/>
 
 **Please Note** When using the Section Tab Controls you need to have the SectionView viewport open. This is found in the bottom left of the model window.
 
@@ -186,30 +204,18 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 #### **4.6 | Slope Gradient: 1 in X**
 - In the text box enter your cut and fill earthworks gradient.
 
-<br/>
-
-### <u>**5.0 | Model Tab**</u>
-
-<br/>
+### **5.0 | Model Tab**
 
 ![Model Tab](Media/Model.png)
-
-<br/>
 
 #### **5.1 | Earthworks Volumes**
 - Toggle `Caluclate` to calculate the earthworks volumes for your design
 - The Cut / Fill / Total volume will display below
 - *PLASE NOTE: This may not work 100% of the time. This is under further development*
 
-<br/>
-
-### **<u>6.0 | Export Tab</u>**
-
-<br/>
+### **6.0 | Export Tab**
 
 ![Export Bake](Media/Export-Bake.png)
-
-<br/>
 
 #### **6.1 | Bake Model**
 - Press `Bake Geometry` to finalise your design and bake the geometry to the model window.
@@ -222,24 +228,14 @@ https://web.microsoftstream.com/video/84120873-257a-4ad6-a30e-2aa85b31ce97
 - Select `Open`
 - Press `Export` to export your SOP coordinates to your chosen CSV file location
 
-<br/>
-
 ![Export Plan](Media/Export-Plan.png)
-
-<br/>
 
 ![Export Section](Media/Export-Section.png)
 
-<br/>
-
-### <u>**7.0 | Info Tab**</u>
+### **7.0 | Info Tab**=
 - For any issues, bugs or requirements please feel free to contact us with the information provided 
 
-<br/>
-
 ---
-
-<br/>
 
 ## **Further Development**
 List Potential Further Developments (Planned & Potential)
@@ -255,11 +251,7 @@ To further improve the script, the following has been considered (but not at all
 - Piling rig / equipment shown in drawing
 - SOP annotation in section
 
-<br/>
-
 ---
-
-<br/>
 
 ## **Known Issues**
 
